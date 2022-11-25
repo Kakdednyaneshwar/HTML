@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title> Model form</title>
+        <style>
+            body
+            {
+                background-color: aliceblue;
+            }
+            @media screen and (max-width: 992px)
+            {
+                background-color: blue;
+            }
+            @media screen and(max-width: 600px)
+            {
+                background-color: olive;
+            }
+            h1
+            {
+                background-color:rgb(23, 169, 169);
+                color: white;
+                text-shadow: 2px 2px 4px #000000;
+
+            }
+            table
+            {
+                box-shadow:3px 2px 5px 4px #000000;
+                background-color:aliceblue;
+                width:40%;
+               
+
+            }
+            td
+            {
+                text-shadow: 2px 2px 4px #000000;
+                font-size: 15;
+
+            }
+            .submitbtn
+            {
+                background-color: #4CAF50;
+                border:none;   
+            }
+            button
+            {
+                box-shadow: 3px 2px 4px #921010;
+
+            }
+            input[type=text],input[type=email],input[type=password],input[type=number]
+            {
+              background:transparent;
+              border:1;
+              border-color:#921010;
+              width: 58%;
+              box-shadow: 3px 2px 4px  #000000;
+            }
+        </style>   
+    </head>
+
+    <body>
+    
+        <table border="0" align="center">
+            <tr>
+                <td>
+                    <form>
+                        
+                        <pre>
+    <h1 align="center">Model Form</h1>
+    <label><b>Name:</b>      <input type="text" placeholder="Enter your name" required></label><br>
+    <label><b>City:</b>      <input type="text" placeholder="Enter your city" required></label><br>
+    <label><b>Phone:</b>     <input type="number" placeholder="Enter your number" required></label><br>
+    <label><b>Email:</b>     <input type="email" placeholder="Enter your email" required></label><br>
+    <label><b>Password:</b>  <input type="password" placeholder="Enter your password" required></label><br>
+    <label>            <center> <button type="submit" class="submitbtn">Submit</button></label></center>
+                        </pre>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    
+    </body>
+</html>
